@@ -1,0 +1,63 @@
+@import url(https://db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('background.jpeg');
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Game of Thrones";
+    font-size: 40px;
+}
+
+form {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.question {
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: white;
+    opacity: 0.6;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#buttons input {
+    cursor: pointer;
+    padding: 10px 5px;
+    width: 30%;
+    border: 2px solid blue;
+    border-radius: 7px;
+    background-color: rgb(4, 4, 171);
+    color: white;
+    font-weight: bold;
+}
+
+#buttons input:hover {
+    background-color: gray;
+    color: rgb(4, 4, 171);
+}
+
+#results p {
+    margin-bottom: 10px;
+}
